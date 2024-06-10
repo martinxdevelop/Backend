@@ -1,0 +1,24 @@
+
+
+.contenedor-contactos {
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px 64px;
+    overflow: auto;
+  }
+  
+  .contenedor-contactos::-webkit-scrollbar {
+    background-color: blueviolet;
+    width: 5px;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .contenedor-contactos::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 3px solid black;
+  }
+  
